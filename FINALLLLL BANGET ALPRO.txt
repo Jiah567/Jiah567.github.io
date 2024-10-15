@@ -1,0 +1,589 @@
+FINALLLLL BANGET
+ONEINDEX HTMLLL
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" tipe="text/css" href="oneindex.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Coffee Shop and Work Space</h1>
+        
+    <header>
+        <div class="header-content">
+            <a  style="color: white;">Temukan Tempat Nongkrong Ternyamanmu </a>
+            <div class="line"></div>
+            <h1>TEMPAT NONGKI</h1>
+            <a href="twostyle.html" style="color: white;" class="ctn">Explore Cafe Kota Serang</a>
+        </div>
+    </header>
+
+</body>
+</html>
+
+CSS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a { 
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}    
+.navbar {
+    top: 0;
+    left : 0;
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    } 
+header {
+    background-image: url(cf.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 235px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content a {
+    font-size: 3vmin;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: #8e3057;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.ctn {
+    padding: 8px 15px;
+    background: #8e3057;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration-color: antiquewhite;
+}   
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+title{
+    text-align: center;
+    font-size: 4vmin;
+    color: violet;
+}
+@media only screen and (max-width:850pc){
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding: 1rem;
+    margin: 2rem;
+    background: D;
+
+}
+}
+
+TWOSTYLEE
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO NONGKI</title>
+    <link rel="stylesheet" tipe="text/css" href="twostyle.css">
+</head>
+<body>
+
+    <header>
+    <h1>I N F O N O N G K I</h1>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Coffee Shop & Work Space</a>
+            </div>
+            <ul class="menu">
+                <li><a href="oneindex.html">HOME</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="tempat_nongkrong">
+
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48349.2344478873!2d106.10990218320804!3d-6.114992085607995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bf60b0cddd3%3A0x81374ed8bf384ff3!2sCRUZ%20Coffee%20%26%20Work%20Space!5e1!3m2!1sid!2sid!4v1727781093019!5m2!1sid!2sid"width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>CRUZ CAFE</h3>
+        <a href="https://www.instagram.com/cruzcoffee.id?igsh=MXZiaWU4NXlnc3AyMA==" >@cruzcoffee.id</a>
+        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96699.58515596147!2d106.07283545120511!3d-6.108815330097153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bedc7978377%3A0x761cbb672ba140b1!2sCarios!5e1!3m2!1sid!2sid!4v1727781330643!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+        <h3>CARIOS CAFE</h3>
+        <a href="https://www.instagram.com/carios.id?igsh=OHR6MjNzeGZzMHJi">@carios.id</a>
+        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1014.5163861926115!2d106.1646986751587!3d-6.131891824124805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5333b261a6d%3A0xeb870cdad48b3d83!2sKopi%20Janji%20Jiwa%20Ki%20Ajurum%20Serang%20jilid%20367!5e1!3m2!1sid!2sid!4v1727929422460!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>JANJI JIWA CAFE</h3>
+        <a href="https://www.instagram.com/kopijanjijiwa?igsh=bGwwenFsc21xcXZk">@kopijanjijiwa</a>
+        </div>
+
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.6731113974265!2d106.1346769053054!3d-6.1185149924854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f59fefe6b0d7%3A0x6d863d82d07e7c1a!2sTakaran%20Coffee%20Collective!5e1!3m2!1sid!2sid!4v1727926882180!5m2!1sid!2sid" width="300" height="250" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <h3>TAKARAN CAFE</h3>
+        <a href="https://www.instagram.com/takaran.coffee?igsh=MXM2djJzNDQ5cDUzaQ==">@Takarancafe</a>
+        </div>
+
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.9076349029708!2d106.1702890493234!3d-6.117094822547888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f542381b8a45%3A0x8087d8ec970fdf96!2sOi*21%20Coffee%20%26%20Pastry!5e1!3m2!1sid!2sid!4v1727928757451!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Oi CAFE</h3>
+        <a href="https://www.instagram.com/oicoffeepastry?igsh=dTM4bDFlMmpmN3V4">@oicoffeepastry</a>        </div>
+
+        <div class="tempat_nongkrong-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.8665802672977!2d106.16087098682956!3d-6.108239863022416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5f54ff0bd57%3A0x17d0552759bcff18!2sCATTALEYA%20FOOD%20%26%20BEVERAGE!5e1!3m2!1sid!2sid!4v1727928340747!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>CATTALEYA CAFE</h3>
+        <a href="https://www.instagram.com/cattaleyalounge?igsh=MXNtYjduNWFzMzNkdA==">@cattaleyalounge</a>        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.86458538319474!2d106.13610136539069!3d-6.113892380335738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bce31e0a4d5%3A0xee90b945d91de1fe!2sTatakan%20Coffee!5e1!3m2!1sid!2sid!4v1727929189852!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        <h3>TATAKAN CAFE</h3>
+        <a href="https://www.instagram.com/tatakancoffee?igsh=ZWIzeGNuaG5kaHpw">@tatakancoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.86183446694739!2d106.1408955215811!3d-6.121678591027713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bb87a376811%3A0x2f379cd365bcf716!2sSekala%20Coffee!5e1!3m2!1sid!2sid!4v1727929893630!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>SEKALA CAFE</h3>
+        <a href="https://www.instagram.com/sekala_coffee?igsh=MWI1YnFwanA2aXJ4ag==">@sekala_coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.628082444597!2d106.16452459999998!3d-6.1209378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5683f438b1f%3A0x3cc18d97f911bf03!2sCo%20%26%20Labs%20Station!5e1!3m2!1sid!2sid!4v1728393958734!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>CO&LABS CAFE</h3>
+        <a href="https://www.instagram.com/collabs.station?igsh=MXJlNnZiZHdoa2h2ZQ==">@collabs.station</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12066.336793563984!2d106.1571864697754!3d-6.128705300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5003fec590d%3A0x68bdaa5af676674b!2sKARASA%20CAFFE!5e1!3m2!1sid!2sid!4v1728393931937!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        <h3>KARASA CAFE</h3>
+        <a href="https://www.instagram.com/karasacafe?igsh=ZjM5NDI1YXI5OXRk">@karasacafe</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6168950886135!2d106.16739319999999!3d-6.1229189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418ba9cbee57e7%3A0x7a5bfcab69a5d077!2sSalawasna%20Coffee!5e1!3m2!1sid!2sid!4v1728393903837!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+        <h3>SALASWANA CAFE</h3>
+        <a href="https://www.instagram.com/salawasnacoffee?igsh=MXJxbnp1NzdvYXM5Yg==">@salaswanacoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.591015566312!2d106.1513164!3d-6.127499299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b29c88c6d77%3A0x20bcd3a15fd95489!2sKiri%20Coffee%20and%20Eatery!5e1!3m2!1sid!2sid!4v1728393878169!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KIRI CAFE</h3>
+        <a href="https://www.instagram.com/kiricoffee_?igsh=MTRhaHNvOG8yM2RtZw==">@kiricoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12066.336793563984!2d106.1571864697754!3d-6.128705300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5003fec590d%3A0x68bdaa5af676674b!2sKARASA%20CAFFE!5e1!3m2!1sid!2sid!4v1728393931937!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+        <h3>ARKARA CAFE</h3>
+        <a href="https://www.instagram.com/arkara.co?igsh=cGt1dG1iYmt2ZDR6">@arkara.co</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.8563050850357!2d106.1269281!3d-6.080382900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1d02eedecd%3A0xfb1685a10eb14802!2sKotak%20Coffee%20%40Serang!5e1!3m2!1sid!2sid!4v1728393775890!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOTAK CAFE</h3>
+        <a href="https://www.instagram.com/kotakcoffee_serang?igsh=MTlzd3E5NmU5Y21meQ==">@kotacoffe_serang</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.0943612971473!2d106.0452114!3d-6.2147502999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bd4cf07b981%3A0x2488d877265fee99!2sHerecafe.serang!5e1!3m2!1sid!2sid!4v1728393724857!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>HERE CAFE</h3>
+        <a href="https://www.instagram.com/herecafe.serang?igsh=ZG9oemc0amhkZ2k2">@herecafe.serang</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.590539085811!2d106.1484205!3d-6.1275835999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b38b9796125%3A0xcb1a466efe4256b2!2sLangit%20Senja%20Coffee%20%26%20Ramen%20(Lansen).%20IQOS%20Partner.!5e1!3m2!1sid!2sid!4v1728393671545!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>LANGIT SENJA CAFE</h3>
+        <a href="https://www.instagram.com/lansen_coffee?igsh=enprYm44MDRlMWpj">@lansen_coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48263.02191330918!2d106.12834173359376!3d-6.154358850556775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5e634031505%3A0x3ee0c0a1623ff54e!2s89%20Coffee%20Karundang!5e1!3m2!1sid!2sid!4v1728393608908!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>89 CAFE</h3>
+        <a href="https://www.instagram.com/89coffee_sayar?igsh=cmt4cWJoNXJtN3Yx">@89coffe_sayar</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.5856676448207!2d106.1336819!3d-6.1284453999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b4a150346f1%3A0xd519e281eee04716!2sKopi%20Rona%20-%20Ruko%20Alegro!5e1!3m2!1sid!2sid!4v1728378748052!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOPI RONA</h3>
+        <a href="https://www.instagram.com/kopirona?igsh=MWlndHV6aDdhMThmNA==">@kopirona</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.876159751485!2d106.1553684!3d-6.076841999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b6db943fd13%3A0x6f937e07bb106156!2sHello%20Adreena%20%23BeachVibes!5e1!3m2!1sid!2sid!4v1728378689224!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+        <h3>HELLO ADREENA CAFE</h3>
+        <a href="https://www.instagram.com/helloadreena?igsh=MTV6MGF4c3RpM2EyMg==">@helloadreena</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.662618437422!2d106.1407291!3d-6.114818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b8f6e20fb43%3A0x981dd50882c623bf!2sHellow%20Beach!5e1!3m2!1sid!2sid!4v1728378643179!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>HELLOW BEACH CAFE</h3>
+        <a href="https://www.instagram.com/hellow_beach_serang?igsh=Y2J1NHA2ZnU5cmQ2">@hellow_beach_serang</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.55754432423!2d106.16652339999999!3d-6.1334183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5e015fccfef%3A0x4ad96b2a85a8a6a3!2sCIGARA%20Coffee%20and%20Eatery!5e1!3m2!1sid!2sid!4v1728378592693!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>CIGARA COFFEE & EATERY</h3>
+        <a href="https://www.instagram.com/cigara.coery?igsh=MW90bGxjZ3ZnZXVzaQ==">@cigara.coery</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6445093632187!2d106.15603850000001!3d-6.118027699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bf986b2fd77%3A0x7c9858b420dd4635!2sOnix%20Coffee%20and%20Space!5e1!3m2!1sid!2sid!4v1728378555835!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>ONIX COFFEE AND SPACE</h3>
+        <a href="https://www.instagram.com/onix.coffee?igsh=MXJ5cGV1dXRybmFmZA==">@onix.coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6033.304098663355!2d106.1496653348877!3d-6.116691499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bfecda4af8d%3A0xbf5b76b74014ee70!2sMako%20%26%20J.Co!5e1!3m2!1sid!2sid!4v1728378443416!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>JCO</h3>
+        <a href="https://www.instagram.com/jcoindonesia?igsh=MXQ1MzgwM2QwN3p5ZQ==" style="color: rgba(0, 0, 220, 225);">@jcoindonesia</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.630619723665!2d106.17035500000001!3d-6.120488400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5edc6cfcc5d%3A0x6b1c441797afb29!2sKopi%20Kenangan%20-%20Ruko%20Serang!5e1!3m2!1sid!2sid!4v1728378325105!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOPI KENANGAN</h3>
+        <a href="https://www.instagram.com/kopikenangan.id?igsh=MW5xNnJ6cmpuemJqbw==">@kopikenangan.id</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.618473090751!2d106.1676636!3d-6.1226395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f55ba30d4041%3A0x819b0b6fc1ed0a3d!2sKEBON%20CAU%20COFFEE!5e1!3m2!1sid!2sid!4v1728378238942!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KEBON CAU CAFE</h3>
+        <a href="https://www.instagram.com/cafe_keboncau?igsh=a29lem1mbjJ3ZGkw">@cafe_keboncau</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.590072772948!2d106.1472431!3d-6.127666100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bb4a23cbb51%3A0x59d534cf7a1b2033!2sGrand%20Garden%20Coffee!5e1!3m2!1sid!2sid!4v1728378190370!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>GRAND GARDEN CAFE</h3>
+        <a href="https://www.instagram.com/grandgarden83?igsh=MTV6ZWc3Zm1jcHF2OA==">@grandgarden83</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.5907521745767!2d106.17524839999999!3d-6.127545899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f527b4ed7f19%3A0x67499c291ce58e46!2sSobahollic%20Cafe!5e1!3m2!1sid!2sid!4v1728378142723!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>SOBAHOLLIC CAFE</h3>
+        <a href="https://www.instagram.com/sobahollic?igsh=MWFtenk1MnNtemJqcg==">@sobahollic</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6065335029243!2d106.17345449999999!3d-6.124753200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5ad4ab2c20f%3A0xa30f7ceff101a684!2sKiara%20Coffee!5e1!3m2!1sid!2sid!4v1728378097645!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KIARA CAFE</h3>
+        <a href="https://www.instagram.com/kiaracoffee.id?igsh=MXJnNnJhbmcwc3R0Zw==">@kiaracoffee.id</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.5973849690404!2d106.16130749999999!3d-6.1263723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5327c88c1b7%3A0x7e1d1303183bc321!2sKopijalu!5e1!3m2!1sid!2sid!4v1728378047204!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOPI JALU</h3>
+        <a href="https://www.instagram.com/kopijalu.serang?igsh=MTA1c2w1azl2cXc4Mg==">@kopijalu.serang</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6214357456442!2d106.14692919999999!3d-6.1221149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418be374d6df95%3A0x2d79b6a9202455d9!2sJannor%20Coffee%20%26%20Co!5e1!3m2!1sid!2sid!4v1728377997756!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>JANNOR CAFE</h3>
+        <a href="https://www.instagram.com/jannorcoffee?igsh=eTZqaGpvY3QyeWVv">@jannorcoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.876159751485!2d106.1553684!3d-6.076841999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b6db943fd13%3A0x6f937e07bb106156!2sHello%20Adreena%20%23BeachVibes!5e1!3m2!1sid!2sid!4v1728377948111!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>HELLO ADREENA CAFE</h3>
+        <a href="https://www.instagram.com/helloadreena?igsh=MTdvMHU2M2U0bDhuZw==">@helloadreena</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.4660576428!2d106.1795144!3d-6.1495676999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5b3161ba5e9%3A0xf41d033ed52dd9bd!2sTeapedia%20Baim!5e1!3m2!1sid!2sid!4v1728377898284!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>TEAPEDIA CAFE</h3>
+        <a href="https://www.instagram.com/teapediaofficial?igsh=MXBza3Bhb3NiOWpiOQ==">@teapediaofficial</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.601285157431!2d106.16372179999999!3d-6.1256821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5802e89cc0f%3A0x9dae977c8b9b93c!2sThe%20Zyta%20Cafe%20%26%20Lounge!5e1!3m2!1sid!2sid!4v1728377873855!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>THE ZYTA CAFE</h3>
+        <a href="https://www.instagram.com/thezyta_cafe?igsh=MWlzenJwMmNmZ2Fsaw==">@thezyta_cafe</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6117765365034!2d106.1471863!3d-6.1238251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418ad08c1408ad%3A0xaa402a0ca58ba503!2sZhieva%20Coffee!5e1!3m2!1sid!2sid!4v1728377838448!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>ZHIEVA CAFE</h3>
+        <a href="https://www.instagram.com/zhieva_coffee?igsh=MXJsaHF1ZHBtdmg5Mw==">@zhieva_coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.193984203355!2d106.1035849!3d-6.1973468999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4221164ec97037%3A0xdb23f8e271e4254d!2sCavelet%20Coffee!5e1!3m2!1sid!2sid!4v1728377803965!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>CAVELET CAFE</h3>
+        <a href="https://www.instagram.com/caveletcoffee?igsh=OTB6bm1rYm0zMDBt">@caveletcoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.650330101449!2d106.1545452!3d-6.1169962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bfca2b72469%3A0x9a4cded6c3772254!2sStarbucks%20Veteran%20Serang!5e1!3m2!1sid!2sid!4v1728377777307!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>STARBUCKS</h3>
+        <a href="https://www.instagram.com/starbucksindonesia?igsh=MWhqdDh0M3JlOTZ6bg==">@starbucksindonesia</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.760006039568!2d106.1804255!3d-6.097527899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f58065dccf9b%3A0xe57c02d78ba4e44c!2sES%20TEH%20INDONESIA%20TRONDOL%2054%20SERANG!5e1!3m2!1sid!2sid!4v1728377747399!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>ES TEH INDONESIA</h3>
+        <a href="https://www.instagram.com/esteh.indonesia?igsh=MTN1MjBraG81dXEwcQ==">@esteh.indonesia</a>        </div>
+        </div>
+
+        <div class="tempat_nongkrong-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.58945214322!2d106.15004000000002!3d-6.127775899999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b0d29f582cb%3A0xc87e9c6a5a5cf858!2sMADRE%20(boutique%2C%20cafe%20%26%20patisserie)!5e1!3m2!1sid!2sid!4v1728377708015!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>MADRE</h3>
+        <a href="https://www.instagram.com/madrecafe.id?igsh=Y3ZwdDQ2ZGc5bTF4" style="color: rgba(0, 0, 220, 225)";>@madrecafe.id</a>        </div>
+        </div>
+       
+        <div class="tempat_nongkrong-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.622331946929!2d106.14080849999999!3d-6.1219562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b73b688eb49%3A0x1f2449cd5f429914!2sNgopidipit%20Roasting%20Co.!5e1!3m2!1sid!2sid!4v1728377664576!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>NGOPIDIPIT</h3>
+        <a href="https://www.instagram.com/ngopidipit.espresso.bar?igsh=MWV0MnN0Nzk5dzUwcQ==" style="color: rgba(0, 0, 220, 225)";>@ngopidipit.espresso</a>        </div>
+        </div>
+
+        <div class="tempat_nongkrong-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.5807514215126!2d106.1544821!3d-6.129315000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b89625b8023%3A0xe8ce711cf6ef3428!2sLEBJAR%20Coffee%20%26%20Noodle!5e1!3m2!1sid!2sid!4v1728377626897!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>LEBJAR</h3>
+        <a href="https://www.instagram.com/lebjarcoffee?igsh=MTV3YXk4bWtxYTFnMg==">@lebjarcoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.7249366882447!2d106.13672260000001!3d-6.103759700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5000955e5df%3A0xd4419615a72535d3!2sGRANOOLIZE!5e1!3m2!1sid!2sid!4v1728377598142!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>GRANOOLIZE</h3>
+        <a href="https://www.instagram.com/granoolize?igsh=MWw3YXNlbHlzOW53Yg==">@granoolize</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6527912770166!2d106.15348850000001!3d-6.116560000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b48b3a27ec5%3A0xb04ca415cebd9bc9!2sMy%20Rooftop%20Cafe!5e1!3m2!1sid!2sid!4v1728377414686!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>MY ROOFTOP CAFE</h3>
+        <a href="https://www.instagram.com/myrooftopcafe?igsh=eTBkYmZ1d3QzbWU3">@myrooftopcafe</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.8563050850357!2d106.1269281!3d-6.080382900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1d02eedecd%3A0xfb1685a10eb14802!2sKotak%20Coffee%20%40Serang!5e1!3m2!1sid!2sid!4v1728377382515!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOTAK COFFEE</h3>
+        <a href="https://www.instagram.com/kotakcoffee_serang?igsh=MTl5cTJrNG9wbXRwMg==">@kopikotak_serang</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.617173531568!2d106.14313790000001!3d-6.1228696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418baf367c435d%3A0x1cf4802a79f2287c!2sSatu%20Tempat%20Cafe%20%26%20Resto!5e1!3m2!1sid!2sid!4v1728377340781!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>SATU TEMPAT</h3>
+        <a href="https://www.instagram.com/satu_tempat?igsh=Y2lwa29lM3FobnY0">@satu_tempat</a>        </div>
+        </div>        
+        <div class="tempat_nongkrong-item">
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6196.185575507089!2d106.1780666857779!3d-6.120083664368038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f517a4a21553%3A0x2453a7aa13e60bc8!2sRUANG%20LE&#39;NDRA!5e1!3m2!1sid!2sid!4v1728377204113!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>LE'NDRA CAFE</h3>
+        <a href="https://www.instagram.com/ruanglendra?igsh=anhvd3AxYjgxcDgx">@ruanglendra</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24173.794390193143!2d106.09598810559652!3d-6.13316840662526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b89a3c1085d%3A0x60332a98f20e1a76!2sTHE%20BALCONY%20Cafe%20and%20Space!5e1!3m2!1sid!2sid!4v1728377065822!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>THE BALCONY CAFE</h3>
+        <a href="https://www.instagram.com/balconyspace.id?igsh=MW8xdmtybWJtMzJ3Mw==">@balconyspace.id</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1206278715617!2d106.13608057442394!3d-6.1144588599615615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f523a243b64d%3A0xd7af1104a2b97857!2sKopi%20113!5e0!3m2!1sen!2sid!4v1728359469044!5m2!1sen!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KOPI 113</h3>
+        <a href="https://www.instagram.com/kopi113/">@kopi113</a> </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+                
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.320818732402!2d106.12681627208445!3d-6.087409246212252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bf9f1e098a1%3A0x849b863db14f3416!2sWestside%20Coffee!5e0!3m2!1sen!2sid!4v1728359382930!5m2!1sen!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>WESTSIDE CAFE</h3>
+        <a href="https://www.instagram.com/westsidecoffeeid?igsh=MTJxYWMzYXg2NXB3bA==">@westsidecoffeeid</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0930326419243!2d106.1426553744241!3d-6.118178159994991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bb5826fc105%3A0x25f7d8b86ed4d760!2sKaloran%20Coffee%20%26%20Resto!5e0!3m2!1sen!2sid!4v1728359228624!5m2!1sen!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KALORAN CAFE</h3>
+        <a href="https://www.instagram.com/kaloran.coffee?igsh=OXplY2RldTJ0enFl" style="color: rgba(0, 0, 220, 225)";>@kaloran.coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+                    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1100059135097!2d106.15535497442406!3d-6.115890759974442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b68185750fb%3A0x4d3e2dfae1423ce8!2s527%20coffee!5e0!3m2!1sen!2sid!4v1728358480204!5m2!1sen!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>527 COFFEE</h3>
+        <a href="https://www.instagram.com/527.coffee?igsh=b3Y1bHhkM2ZibzNw">@527coffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+                    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7933.6780268455!2d106.1703238!3d-6.1523098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5e7f25b21d5%3A0x3e971d40abc51402!2sKalanoia%20Coffee!5e0!3m2!1sid!2sid!4v1728463539979!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>KALANOIA COFFEE</h3>
+        <a href="https://www.instagram.com/kalanoiacoffee?igsh=em0wamsyZGI3dTJm">@kalanoiacoffee</a>        </div>
+        </div>
+        <div class="tempat_nongkrong-item">
+                    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.97617273414!2d106.1440102!3d-6.1339036999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bc06bdecc29%3A0x6ebf8eedc85b655e!2sPojok%20Garasi%2019%20-%20Food%20%26%20Beverage!5e0!3m2!1sid!2sid!4v1728463672835!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>POJOK GARASI 19</h3>
+        <a href="https://www.instagram.com/pojokgarasi19?igsh=MWU3MjVwN3p0c2ZrbQ">@pojokgarasi19</a> <i class="fa-brands 
+        fa-instagram"></i> 
+        </div>
+        <div class="tempat_nongkrong-item">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0306096920026!2d106.13686547402388!3d-6.126583260069797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b07d8e77a21%3A0x20f82414c5644ffd!2sFisa%20Kopi%20%26%20Gelato%20Taman%20Puri%20Citraland!5e0!3m2!1sid!2sid!4v1728464356055!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>FISA KOPI GELATO</h3>
+        <a href="https://www.instagram.com/fisacafe?igsh=MWJ4Y3NhOWxuNWR4cA==">@fisacafe</a>        </div>
+        </div>
+
+        <div class="tempat_nongkrong-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0560721772536!2d106.16450628465577!3d-6.1231561856167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5772fef0cbd%3A0x4c5e74cce3b77bf6!2sCoffee%20Rider%20Serang!5e0!3m2!1sid!2sid!4v1728968017438!5m2!1sid!2sid" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        <h3>COFFE RIDER SERANG</h3>
+        <a href="https://www.instagram.com/coffee.rider?igsh=MW5zOHl4MDF4cTR3ZA==">@coffee.rider</a>        </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
+
+CSS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: arial, sans-serif;
+    background-color: rgba(143, 125, 85, 0.5);
+  }
+  h1{
+    font-weight: bolder;
+    font-family: Trebuchet MS;
+    -webkit-text-stroke-color: rgb(1, 0, 0);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5cm;
+    lighting-color: whitesmoke;
+  }
+  header{
+    background: url(https://i.pinimg.com/originals/63/2b/e1/632be1bd9fbd8586ce95b9677fea8af8.jpg) center/cover no-repeat;
+    background-color: white;
+    text-align: center;
+    padding: 4rem 0;
+    position: relative;
+    background-position: center;
+  }
+  header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.137);
+  }
+  header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1 rem;
+  }
+  nav {
+    background-color: #795C32;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .menu{
+    list-style-type: none;
+    display: flex;
+  }
+  .menu li{
+    margin: 0 1rem;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .menu li a:hover{
+    color: #c4942c;
+  }
+  main{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(65, 20, 20, 0.1);
+    z-index: 1;
+  }
+  .tempat_nongkrong {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .INFO_NONGKI h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .tempat_nongkrong-item {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5) ;
+    gap: 1.5rem;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  .tempat_nongkrong-item{
+    max-width:100% ;
+    top: 1rem; left: .5rem;
+    color: var(antiquewhite);
+    background: rgba(237, 192, 214, 0.05);
+    z-index: 1;
+    height: auto;
+    position: relative;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  
